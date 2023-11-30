@@ -1,5 +1,5 @@
 export default class HolbertonCourse {
-  constructor (name, length, students) {
+  constructor(name, length, students) {
     if (typeof name === 'string') {
       this._name = name
     }
@@ -12,7 +12,7 @@ export default class HolbertonCourse {
   }
 
   get name () {
-    return this.__name
+    return this._name
   }
 
   get length () {
